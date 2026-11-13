@@ -6,6 +6,7 @@ import 'config/app_brand.dart';
 import 'config/app_theme.dart';
 import 'config/app_timing.dart';
 import 'config/launch_hooks.dart';
+import 'config/touch_dots.dart';
 import 'providers/session_providers.dart';
 import 'screens/auth/auth_screen.dart';
 import 'screens/onboarding/onboarding_screen.dart';
@@ -60,7 +61,7 @@ class _KeystoneAppState extends ConsumerState<KeystoneApp> {
         // always its keyed first child and only the splash sibling goes.
         // Returning `child` bare once the splash ends would remount the
         // first screen and replay its entrance.
-        return AnnotatedRegion<SystemUiOverlayStyle>(
+        final app = AnnotatedRegion<SystemUiOverlayStyle>(
           value: dark ? SystemUiOverlayStyle.light : SystemUiOverlayStyle.dark,
           child: GestureDetector(
             behavior: HitTestBehavior.translucent,
@@ -73,6 +74,7 @@ class _KeystoneAppState extends ConsumerState<KeystoneApp> {
             ),
           ),
         );
+        return LaunchHooks.showTouches ? TouchDots(child: app) : app;
       },
     );
   }

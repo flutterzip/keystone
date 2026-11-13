@@ -31,10 +31,12 @@ import '../services/store.dart';
 ///   open=WHAT       search, map, messages, searches, documents,
 ///                   applications, home:ID, gallery:ID, brochure:ID,
 ///                   book:ID, application:ID, thread:ID or compare:ID+ID
+///   touches         draw a dot under every touch, for recordings
 ///   touch=SCRIPT    taps and waits played after the page opens, for
 ///                   recording motion hands-free: `600/220x640/900/200x300`
 ///                   waits 600 ms, taps at (220, 640), waits 900 ms, taps
-///                   again. `AxB>CxD` drags from one point to the other.
+///                   again. `AxB>CxD` drags from one point to the other
+///                   and `type:garden` types into the focused field.
 abstract final class LaunchHooks {
   /// What was asked for at build time. Empty in anything that ships.
   static const start = String.fromEnvironment('start', defaultValue: '');
@@ -138,6 +140,27 @@ abstract final class LaunchHooks {
     });
   }
 
+  /// Whether touches are drawn on screen, for recordings.
+  static bool get showTouches => _tokens.contains('touches');
+
+  /// Types into the field that has the keyboard, a letter at a time.
+  static Future<void> _type(String text) async {
+    final field = FocusManager.instance.primaryFocus?.context
+        ?.findAncestorStateOfType<EditableTextState>();
+    if (field == null) return;
+    for (var i = 1; i <= text.length; i++) {
+      final typed = text.substring(0, i);
+      field.userUpdateTextEditingValue(
+        TextEditingValue(
+          text: typed,
+          selection: TextSelection.collapsed(offset: typed.length),
+        ),
+        SelectionChangedCause.keyboard,
+      );
+      await Future<void>.delayed(const Duration(milliseconds: 110));
+    }
+  }
+
   /// Plays a touch script through the gesture binding, so real recognisers
   /// fire exactly as for a finger.
   static Future<void> _play(String script) async {
@@ -153,12 +176,14 @@ abstract final class LaunchHooks {
         Duration(microseconds: DateTime.now().microsecondsSinceEpoch);
     void send(PointerEvent e) => GestureBinding.instance.handlePointerEvent(e);
     for (final step in script.split('/')) {
-      if (step.contains('>')) {
+      if (step.startsWith('type:')) {
+        await _type(step.substring(5));
+      } else if (step.contains('>')) {
         final [a, b] = step.split('>').map(point).toList();
         if (a == null || b == null) continue;
         final id = pointer++;
         send(PointerDownEvent(pointer: id, position: a, timeStamp: stamp()));
-        const frames = 18;
+        const frames = 26;
         for (var i = 1; i <= frames; i++) {
           await Future<void>.delayed(const Duration(milliseconds: 16));
           send(

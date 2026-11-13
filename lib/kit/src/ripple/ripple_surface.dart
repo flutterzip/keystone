@@ -113,6 +113,9 @@ class RippleSurfaceState extends State<RippleSurface>
       _snapshot.allowSnapshotting = false;
       return;
     }
+    // A fresh picture of the child every frame: one held for the life of
+    // the rings would freeze whatever moves underneath, a pager most of all.
+    _snapshot.clear();
     _painter
       ..rings = _rings
       ..time = _clock

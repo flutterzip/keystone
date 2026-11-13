@@ -1,0 +1,19 @@
+{
+  "demoEmail": "hello@flutterzip.com",
+  "wrongPassword": "wrongpass",
+  "decliningCardLast4": "0002",
+  "recentlyViewed": [
+    "alfama",
+    "miradouro",
+    "chiado"
+  ],
+  "saved": [
+    "loft",
+    "jacaranda",
+    "belem"
+  ],
+  "reservationFee": {
+    "amount": 250000,
+    "currency": "EUR"
+  }
+}

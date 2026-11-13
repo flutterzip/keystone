@@ -1,0 +1,28 @@
+[
+  {
+    "id": "s-rent",
+    "name": "Two beds near the river",
+    "alerts": true,
+    "filter": {
+      "listing": "rent",
+      "minBeds": 2,
+      "maxPrice": 300000,
+      "amenities": []
+    }
+  },
+  {
+    "id": "s-buy",
+    "name": "Family house with a garden",
+    "alerts": false,
+    "filter": {
+      "listing": "sale",
+      "minBeds": 3,
+      "types": [
+        "House"
+      ],
+      "amenities": [
+        "Garden"
+      ]
+    }
+  }
+]

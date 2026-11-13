@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The launch screen colour: the same as the first frame of the splash.
+     Keep in step with Palette.paper in lib/config/palette.dart. -->
+<resources>
+    <color name="launch_bg">#0D1512</color>
+</resources>

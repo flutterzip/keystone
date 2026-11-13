@@ -1,0 +1,835 @@
+[
+  {
+    "id": "jacaranda",
+    "title": "Casa do Jacarandá",
+    "address": "Rua do Sacramento 41",
+    "area": "Lapa",
+    "coordinates": {
+      "lat": 38.7082,
+      "lng": -9.1625
+    },
+    "price": {
+      "amount": 245000000,
+      "currency": "EUR"
+    },
+    "listing": "sale",
+    "beds": 4,
+    "baths": 4,
+    "areaSqm": 320,
+    "type": "House",
+    "yearBuilt": 2019,
+    "listedDaysAgo": 3,
+    "featured": true,
+    "amenities": [
+      "Garden",
+      "Parking",
+      "Fireplace",
+      "Air conditioning",
+      "Terrace",
+      "Storage"
+    ],
+    "photos": [
+      "asset:homes/jacaranda-1.jpg",
+      "asset:homes/jacaranda-2.jpg",
+      "asset:homes/jacaranda-3.jpg",
+      "asset:homes/jacaranda-4.jpg",
+      "asset:homes/jacaranda-5.jpg",
+      "asset:homes/jacaranda-6.jpg",
+      "asset:homes/jacaranda-7.jpg"
+    ],
+    "description": "A black timber house folded around a hundred year old jacaranda. Every room on the ground floor opens to the lawn through glass that slides fully away, and the upper floor floats above it, shaded by its own screen of fins.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 7.2,
+        "h": 5.4
+      },
+      {
+        "name": "Kitchen",
+        "x": 7.2,
+        "y": 0,
+        "w": 4.6,
+        "h": 5.4
+      },
+      {
+        "name": "Dining",
+        "x": 0,
+        "y": 5.4,
+        "w": 5.0,
+        "h": 3.8
+      },
+      {
+        "name": "Study",
+        "x": 5.0,
+        "y": 5.4,
+        "w": 3.2,
+        "h": 3.8
+      },
+      {
+        "name": "Bath",
+        "x": 8.2,
+        "y": 5.4,
+        "w": 3.6,
+        "h": 2.0
+      },
+      {
+        "name": "Hall",
+        "x": 8.2,
+        "y": 7.4,
+        "w": 3.6,
+        "h": 1.8
+      }
+    ],
+    "agentId": "ines"
+  },
+  {
+    "id": "miradouro",
+    "title": "Miradouro House",
+    "address": "Rua de Alcolena 18",
+    "area": "Restelo",
+    "coordinates": {
+      "lat": 38.7045,
+      "lng": -9.212
+    },
+    "price": {
+      "amount": 320000000,
+      "currency": "EUR"
+    },
+    "listing": "sale",
+    "beds": 5,
+    "baths": 5,
+    "areaSqm": 410,
+    "type": "House",
+    "yearBuilt": 2021,
+    "listedDaysAgo": 12,
+    "featured": true,
+    "amenities": [
+      "Pool",
+      "River view",
+      "Parking",
+      "Terrace",
+      "Air conditioning",
+      "Garden"
+    ],
+    "photos": [
+      "asset:homes/miradouro-1.jpg",
+      "asset:homes/miradouro-2.jpg",
+      "asset:homes/miradouro-3.jpg",
+      "asset:homes/miradouro-4.jpg",
+      "asset:homes/miradouro-5.jpg",
+      "asset:homes/miradouro-6.jpg",
+      "asset:homes/miradouro-7.jpg"
+    ],
+    "description": "Three white terraces stepping down a hill towards the river. The pool runs the length of the middle terrace and the main bedroom has the top one to itself, with the bridge in view from the bed.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 8.0,
+        "h": 5.6
+      },
+      {
+        "name": "Kitchen",
+        "x": 8.0,
+        "y": 0,
+        "w": 4.4,
+        "h": 3.4
+      },
+      {
+        "name": "Pantry",
+        "x": 8.0,
+        "y": 3.4,
+        "w": 4.4,
+        "h": 2.2
+      },
+      {
+        "name": "Bedroom",
+        "x": 0,
+        "y": 5.6,
+        "w": 4.6,
+        "h": 4.2
+      },
+      {
+        "name": "Bath",
+        "x": 4.6,
+        "y": 5.6,
+        "w": 2.8,
+        "h": 2.4
+      },
+      {
+        "name": "Terrace",
+        "x": 7.4,
+        "y": 5.6,
+        "w": 5.0,
+        "h": 4.2
+      },
+      {
+        "name": "Hall",
+        "x": 4.6,
+        "y": 8.0,
+        "w": 2.8,
+        "h": 1.8
+      }
+    ],
+    "agentId": "tomas"
+  },
+  {
+    "id": "loft",
+    "title": "The Printworks Loft",
+    "address": "Rua da Escola Politécnica 92",
+    "area": "Príncipe Real",
+    "coordinates": {
+      "lat": 38.7172,
+      "lng": -9.149
+    },
+    "price": {
+      "amount": 290000,
+      "currency": "EUR"
+    },
+    "listing": "rent",
+    "beds": 2,
+    "baths": 2,
+    "areaSqm": 128,
+    "type": "Loft",
+    "yearBuilt": 1924,
+    "listedDaysAgo": 1,
+    "featured": true,
+    "amenities": [
+      "Lift",
+      "Fireplace",
+      "Furnished",
+      "Pets welcome",
+      "Storage"
+    ],
+    "photos": [
+      "asset:homes/loft-1.jpg",
+      "asset:homes/loft-2.jpg",
+      "asset:homes/loft-3.jpg",
+      "asset:homes/loft-4.jpg",
+      "asset:homes/loft-5.jpg",
+      "asset:homes/loft-6.jpg"
+    ],
+    "description": "The top floor of a former printing house, kept open under its original timber trusses. A wood stove sits in the middle of the room, the kitchen runs along one wall and both bedrooms are tucked behind glazed partitions.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 8.4,
+        "h": 6.0
+      },
+      {
+        "name": "Kitchen",
+        "x": 8.4,
+        "y": 0,
+        "w": 3.6,
+        "h": 6.0
+      },
+      {
+        "name": "Bedroom",
+        "x": 0,
+        "y": 6.0,
+        "w": 4.4,
+        "h": 3.8
+      },
+      {
+        "name": "Bedroom 2",
+        "x": 4.4,
+        "y": 6.0,
+        "w": 3.8,
+        "h": 3.8
+      },
+      {
+        "name": "Bath",
+        "x": 8.2,
+        "y": 6.0,
+        "w": 3.8,
+        "h": 2.2
+      },
+      {
+        "name": "Hall",
+        "x": 8.2,
+        "y": 8.2,
+        "w": 3.8,
+        "h": 1.6
+      }
+    ],
+    "agentId": "ines"
+  },
+  {
+    "id": "alfama",
+    "title": "Alfama Light Apartment",
+    "address": "Rua de São Miguel 27, 2nd floor",
+    "area": "Alfama",
+    "coordinates": {
+      "lat": 38.7112,
+      "lng": -9.13
+    },
+    "price": {
+      "amount": 165000,
+      "currency": "EUR"
+    },
+    "listing": "rent",
+    "beds": 1,
+    "baths": 1,
+    "areaSqm": 62,
+    "type": "Apartment",
+    "yearBuilt": 1890,
+    "listedDaysAgo": 5,
+    "featured": false,
+    "amenities": [
+      "Furnished",
+      "Air conditioning",
+      "River view"
+    ],
+    "photos": [
+      "asset:homes/alfama-1.jpg",
+      "asset:homes/alfama-2.jpg",
+      "asset:homes/alfama-3.jpg",
+      "asset:homes/alfama-4.jpg",
+      "asset:homes/alfama-5.jpg",
+      "asset:homes/alfama-6.jpg",
+      "asset:homes/alfama-7.jpg"
+    ],
+    "description": "Two tall windows over the pink and yellow fronts of Alfama. Renovated last year with oak floors, a new kitchen and a bathroom tiled in black and white, and five minutes on foot from the river.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 5.2,
+        "h": 4.6
+      },
+      {
+        "name": "Kitchen",
+        "x": 5.2,
+        "y": 0,
+        "w": 3.0,
+        "h": 2.6
+      },
+      {
+        "name": "Bath",
+        "x": 5.2,
+        "y": 2.6,
+        "w": 3.0,
+        "h": 2.0
+      },
+      {
+        "name": "Bedroom",
+        "x": 0,
+        "y": 4.6,
+        "w": 4.4,
+        "h": 3.4
+      },
+      {
+        "name": "Hall",
+        "x": 4.4,
+        "y": 4.6,
+        "w": 3.8,
+        "h": 1.6
+      }
+    ],
+    "agentId": "bruno"
+  },
+  {
+    "id": "belem",
+    "title": "Belém Garden House",
+    "address": "Travessa das Galinheiras 9",
+    "area": "Belém",
+    "coordinates": {
+      "lat": 38.6985,
+      "lng": -9.203
+    },
+    "price": {
+      "amount": 118000000,
+      "currency": "EUR"
+    },
+    "listing": "sale",
+    "beds": 3,
+    "baths": 2,
+    "areaSqm": 210,
+    "type": "House",
+    "yearBuilt": 2017,
+    "listedDaysAgo": 9,
+    "featured": false,
+    "amenities": [
+      "Garden",
+      "Parking",
+      "Terrace",
+      "Air conditioning",
+      "Pets welcome"
+    ],
+    "photos": [
+      "asset:homes/belem-1.jpg",
+      "asset:homes/belem-2.jpg",
+      "asset:homes/belem-3.jpg",
+      "asset:homes/belem-4.jpg",
+      "asset:homes/belem-5.jpg",
+      "asset:homes/belem-6.jpg",
+      "asset:homes/belem-7.jpg"
+    ],
+    "description": "Timber, black steel and a walled garden on a quiet lane behind the monastery. The living room is one tall space with a gallery above it, and the kitchen island is long enough to seat six.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 6.4,
+        "h": 5.2
+      },
+      {
+        "name": "Kitchen",
+        "x": 6.4,
+        "y": 0,
+        "w": 4.2,
+        "h": 5.2
+      },
+      {
+        "name": "Bedroom",
+        "x": 0,
+        "y": 5.2,
+        "w": 4.0,
+        "h": 3.6
+      },
+      {
+        "name": "Bath",
+        "x": 4.0,
+        "y": 5.2,
+        "w": 2.4,
+        "h": 2.2
+      },
+      {
+        "name": "Study",
+        "x": 6.4,
+        "y": 5.2,
+        "w": 4.2,
+        "h": 3.6
+      },
+      {
+        "name": "Hall",
+        "x": 4.0,
+        "y": 7.4,
+        "w": 2.4,
+        "h": 1.4
+      }
+    ],
+    "agentId": "tomas"
+  },
+  {
+    "id": "chiado",
+    "title": "Chiado Townhouse",
+    "address": "Rua Ivens 14",
+    "area": "Chiado",
+    "coordinates": {
+      "lat": 38.7105,
+      "lng": -9.142
+    },
+    "price": {
+      "amount": 420000,
+      "currency": "EUR"
+    },
+    "listing": "rent",
+    "beds": 3,
+    "baths": 3,
+    "areaSqm": 190,
+    "type": "Townhouse",
+    "yearBuilt": 2008,
+    "listedDaysAgo": 16,
+    "featured": true,
+    "amenities": [
+      "Parking",
+      "Lift",
+      "Air conditioning",
+      "Terrace",
+      "Concierge",
+      "Storage"
+    ],
+    "photos": [
+      "asset:homes/chiado-1.jpg",
+      "asset:homes/chiado-2.jpg",
+      "asset:homes/chiado-3.jpg",
+      "asset:homes/chiado-4.jpg",
+      "asset:homes/chiado-5.jpg",
+      "asset:homes/chiado-6.jpg",
+      "asset:homes/chiado-7.jpg"
+    ],
+    "description": "Four floors on one of Chiado's calmest streets, with a garage on the ground floor and a roof terrace at the top. Coffered ceilings, a marble kitchen and a main suite that takes a whole floor.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 6.0,
+        "h": 5.0
+      },
+      {
+        "name": "Dining",
+        "x": 6.0,
+        "y": 0,
+        "w": 4.0,
+        "h": 5.0
+      },
+      {
+        "name": "Kitchen",
+        "x": 0,
+        "y": 5.0,
+        "w": 4.6,
+        "h": 3.6
+      },
+      {
+        "name": "Bath",
+        "x": 4.6,
+        "y": 5.0,
+        "w": 2.2,
+        "h": 2.0
+      },
+      {
+        "name": "Bedroom",
+        "x": 6.8,
+        "y": 5.0,
+        "w": 3.2,
+        "h": 3.6
+      },
+      {
+        "name": "Hall",
+        "x": 4.6,
+        "y": 7.0,
+        "w": 2.2,
+        "h": 1.6
+      }
+    ],
+    "agentId": "ines"
+  },
+  {
+    "id": "parque",
+    "title": "Parque Residences 4B",
+    "address": "Alameda dos Oceanos 61, 4B",
+    "area": "Parque das Nações",
+    "coordinates": {
+      "lat": 38.768,
+      "lng": -9.096
+    },
+    "price": {
+      "amount": 210000,
+      "currency": "EUR"
+    },
+    "listing": "rent",
+    "beds": 2,
+    "baths": 2,
+    "areaSqm": 96,
+    "type": "Apartment",
+    "yearBuilt": 2022,
+    "listedDaysAgo": 2,
+    "featured": false,
+    "amenities": [
+      "Lift",
+      "Parking",
+      "Concierge",
+      "Air conditioning",
+      "River view",
+      "Pool"
+    ],
+    "photos": [
+      "asset:homes/parque-1.jpg",
+      "asset:homes/parque-2.jpg",
+      "asset:homes/parque-3.jpg",
+      "asset:homes/parque-4.jpg",
+      "asset:homes/parque-5.jpg",
+      "asset:homes/parque-6.jpg",
+      "asset:homes/parque-7.jpg"
+    ],
+    "description": "A corner apartment in a new building by the water, with a balcony along two sides. Open living and kitchen, two bedrooms with their own bathrooms, and a shared pool on the roof.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 6.2,
+        "h": 4.8
+      },
+      {
+        "name": "Kitchen",
+        "x": 6.2,
+        "y": 0,
+        "w": 3.2,
+        "h": 3.0
+      },
+      {
+        "name": "Bath",
+        "x": 6.2,
+        "y": 3.0,
+        "w": 3.2,
+        "h": 1.8
+      },
+      {
+        "name": "Bedroom",
+        "x": 0,
+        "y": 4.8,
+        "w": 4.0,
+        "h": 3.6
+      },
+      {
+        "name": "Bedroom 2",
+        "x": 4.0,
+        "y": 4.8,
+        "w": 3.4,
+        "h": 3.6
+      },
+      {
+        "name": "Bath 2",
+        "x": 7.4,
+        "y": 4.8,
+        "w": 2.0,
+        "h": 3.6
+      }
+    ],
+    "agentId": "leonor"
+  },
+  {
+    "id": "quinta",
+    "title": "Quinta da Serra",
+    "address": "Calçada do Galvão 120",
+    "area": "Ajuda",
+    "coordinates": {
+      "lat": 38.709,
+      "lng": -9.1985
+    },
+    "price": {
+      "amount": 475000000,
+      "currency": "EUR"
+    },
+    "listing": "sale",
+    "beds": 6,
+    "baths": 6,
+    "areaSqm": 620,
+    "type": "House",
+    "yearBuilt": 2020,
+    "listedDaysAgo": 24,
+    "featured": true,
+    "amenities": [
+      "Pool",
+      "Garden",
+      "Parking",
+      "Terrace",
+      "Fireplace",
+      "Air conditioning",
+      "Storage"
+    ],
+    "photos": [
+      "asset:homes/quinta-1.jpg",
+      "asset:homes/quinta-2.jpg",
+      "asset:homes/quinta-3.jpg",
+      "asset:homes/quinta-4.jpg",
+      "asset:homes/quinta-5.jpg",
+      "asset:homes/quinta-6.jpg",
+      "asset:homes/quinta-7.jpg"
+    ],
+    "description": "A white villa set in its own grounds on the edge of Monsanto. The pool court is the heart of it: the kitchen, the dining room and a long covered terrace all open onto the water.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 9.0,
+        "h": 6.0
+      },
+      {
+        "name": "Dining",
+        "x": 9.0,
+        "y": 0,
+        "w": 4.8,
+        "h": 6.0
+      },
+      {
+        "name": "Kitchen",
+        "x": 0,
+        "y": 6.0,
+        "w": 5.4,
+        "h": 4.2
+      },
+      {
+        "name": "Bath",
+        "x": 5.4,
+        "y": 6.0,
+        "w": 3.0,
+        "h": 2.2
+      },
+      {
+        "name": "Bedroom",
+        "x": 8.4,
+        "y": 6.0,
+        "w": 5.4,
+        "h": 4.2
+      },
+      {
+        "name": "Hall",
+        "x": 5.4,
+        "y": 8.2,
+        "w": 3.0,
+        "h": 2.0
+      }
+    ],
+    "agentId": "leonor"
+  },
+  {
+    "id": "ourique",
+    "title": "Ourique Garden Flat",
+    "address": "Rua Coelho da Rocha 55, ground floor",
+    "area": "Campo de Ourique",
+    "coordinates": {
+      "lat": 38.7178,
+      "lng": -9.167
+    },
+    "price": {
+      "amount": 195000,
+      "currency": "EUR"
+    },
+    "listing": "rent",
+    "beds": 2,
+    "baths": 1,
+    "areaSqm": 84,
+    "type": "Apartment",
+    "yearBuilt": 1962,
+    "listedDaysAgo": 6,
+    "featured": false,
+    "amenities": [
+      "Garden",
+      "Pets welcome",
+      "Storage"
+    ],
+    "photos": [
+      "asset:homes/ourique-1.jpg",
+      "asset:homes/ourique-2.jpg",
+      "asset:homes/ourique-3.jpg",
+      "asset:homes/ourique-4.jpg",
+      "asset:homes/ourique-5.jpg",
+      "asset:homes/ourique-6.jpg"
+    ],
+    "description": "A ground floor flat with its own patch of garden, on a street of bakeries and bookshops. Bright living room, a green study that works as a second bedroom, and a dining room for eight.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 5.6,
+        "h": 4.4
+      },
+      {
+        "name": "Dining",
+        "x": 5.6,
+        "y": 0,
+        "w": 3.6,
+        "h": 4.4
+      },
+      {
+        "name": "Kitchen",
+        "x": 0,
+        "y": 4.4,
+        "w": 3.6,
+        "h": 3.0
+      },
+      {
+        "name": "Bath",
+        "x": 3.6,
+        "y": 4.4,
+        "w": 2.0,
+        "h": 3.0
+      },
+      {
+        "name": "Bedroom",
+        "x": 5.6,
+        "y": 4.4,
+        "w": 3.6,
+        "h": 3.0
+      }
+    ],
+    "agentId": "bruno"
+  },
+  {
+    "id": "restelo",
+    "title": "Restelo Pavilion",
+    "address": "Avenida do Restelo 33",
+    "area": "Restelo",
+    "coordinates": {
+      "lat": 38.701,
+      "lng": -9.2085
+    },
+    "price": {
+      "amount": 169000000,
+      "currency": "EUR"
+    },
+    "listing": "sale",
+    "beds": 4,
+    "baths": 3,
+    "areaSqm": 260,
+    "type": "House",
+    "yearBuilt": 2023,
+    "listedDaysAgo": 4,
+    "featured": false,
+    "amenities": [
+      "Garden",
+      "Parking",
+      "Air conditioning",
+      "Terrace",
+      "Fireplace"
+    ],
+    "photos": [
+      "asset:homes/restelo-1.jpg",
+      "asset:homes/restelo-2.jpg",
+      "asset:homes/restelo-3.jpg",
+      "asset:homes/restelo-4.jpg",
+      "asset:homes/restelo-5.jpg",
+      "asset:homes/restelo-6.jpg",
+      "asset:homes/restelo-7.jpg"
+    ],
+    "description": "A new house under a folded white roof, finished this spring. The ground floor is one room from the street to the garden, with a stair of open oak treads rising through the middle of it.",
+    "rooms": [
+      {
+        "name": "Living",
+        "x": 0,
+        "y": 0,
+        "w": 7.0,
+        "h": 5.0
+      },
+      {
+        "name": "Kitchen",
+        "x": 7.0,
+        "y": 0,
+        "w": 4.0,
+        "h": 5.0
+      },
+      {
+        "name": "Bedroom",
+        "x": 0,
+        "y": 5.0,
+        "w": 4.2,
+        "h": 3.8
+      },
+      {
+        "name": "Bath",
+        "x": 4.2,
+        "y": 5.0,
+        "w": 2.6,
+        "h": 2.0
+      },
+      {
+        "name": "Garage",
+        "x": 6.8,
+        "y": 5.0,
+        "w": 4.2,
+        "h": 3.8
+      },
+      {
+        "name": "Hall",
+        "x": 4.2,
+        "y": 7.0,
+        "w": 2.6,
+        "h": 1.8
+      }
+    ],
+    "agentId": "bruno"
+  }
+]

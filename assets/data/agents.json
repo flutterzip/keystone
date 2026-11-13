@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ines",
+    "name": "Inês Carvalho",
+    "agency": "{app} Chiado",
+    "phone": "+351 21 555 0142",
+    "email": "ines@keystone.example",
+    "photo": "asset:people/agent-1.jpg",
+    "replyMinutes": 12
+  },
+  {
+    "id": "tomas",
+    "name": "Tomás Ribeiro",
+    "agency": "{app} Belém",
+    "phone": "+351 21 555 0167",
+    "email": "tomas@keystone.example",
+    "photo": "asset:people/agent-2.jpg",
+    "replyMinutes": 25
+  },
+  {
+    "id": "leonor",
+    "name": "Leonor Matos",
+    "agency": "{app} Riverside",
+    "phone": "+351 21 555 0119",
+    "email": "leonor@keystone.example",
+    "photo": "asset:people/agent-3.jpg",
+    "replyMinutes": 8
+  },
+  {
+    "id": "bruno",
+    "name": "Bruno Faria",
+    "agency": "{app} Estrela",
+    "phone": "+351 21 555 0188",
+    "email": "bruno@keystone.example",
+    "photo": "asset:people/agent-4.jpg",
+    "replyMinutes": 40
+  }
+]

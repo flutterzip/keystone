@@ -1,0 +1,21 @@
+[
+  {
+    "id": "a-chiado",
+    "homeId": "chiado",
+    "kind": "application",
+    "submittedMinutesAgo": 4320,
+    "moveInDays": 21,
+    "note": "Two adults, no pets. Looking for a two year lease."
+  },
+  {
+    "id": "a-belem",
+    "homeId": "belem",
+    "kind": "offer",
+    "submittedMinutesAgo": 50,
+    "offer": {
+      "amount": 115000000,
+      "currency": "EUR"
+    },
+    "note": "Subject to survey. Mortgage agreed in principle."
+  }
+]

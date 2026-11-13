@@ -1,0 +1,52 @@
+name: keystone
+description: "Keystone: a Flutter real estate template. Find a home, book a viewing, keep the paperwork in one place."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.6.1
+  image: ^4.5.4
+  image_picker: ^1.2.3
+  path_provider: ^2.1.6
+  shared_preferences: ^2.3.2
+  sensors_plus: ^7.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  shaders:
+    - shaders/holo_foil.frag
+    - shaders/island.frag
+    - shaders/liquid_glass.frag
+    - shaders/mesh_gradient.frag
+    - shaders/page_curl.frag
+    - shaders/ripple.frag
+    - shaders/route_reveal.frag
+  uses-material-design: true
+  assets:
+    - assets/data/
+    - assets/images/people/
+    - assets/images/homes/
+  fonts:
+    # Bricolage Grotesque, the FlutterZip house face. Static instances cut
+    # from the variable font, so every FontWeight maps to a real cut.
+    - family: Bricolage
+      fonts:
+        - asset: assets/fonts/Bricolage-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Bricolage-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Bricolage-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Bricolage-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Bricolage-ExtraBold.ttf
+          weight: 800

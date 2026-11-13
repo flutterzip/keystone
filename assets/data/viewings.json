@@ -1,0 +1,33 @@
+[
+  {
+    "id": "v-soon",
+    "homeId": "loft",
+    "inMinutes": 45,
+    "mode": "inPerson"
+  },
+  {
+    "id": "v-next",
+    "homeId": "jacaranda",
+    "inMinutes": 4470,
+    "mode": "video"
+  },
+  {
+    "id": "v-past",
+    "homeId": "chiado",
+    "inMinutes": -8640,
+    "mode": "inPerson"
+  },
+  {
+    "id": "v-past-2",
+    "homeId": "belem",
+    "inMinutes": -3080,
+    "mode": "inPerson"
+  },
+  {
+    "id": "v-cancelled",
+    "homeId": "parque",
+    "inMinutes": 2880,
+    "mode": "video",
+    "cancelledMinutesAgo": 300
+  }
+]

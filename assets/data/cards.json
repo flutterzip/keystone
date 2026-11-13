@@ -1,0 +1,18 @@
+[
+  {
+    "id": "visa",
+    "brand": "Visa",
+    "last4": "4242",
+    "expMonth": 8,
+    "expYear": 2029,
+    "holder": "Olympicson"
+  },
+  {
+    "id": "mc",
+    "brand": "Mastercard",
+    "last4": "0002",
+    "expMonth": 3,
+    "expYear": 2028,
+    "holder": "Olympicson"
+  }
+]

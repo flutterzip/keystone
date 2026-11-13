@@ -1,0 +1,71 @@
+[
+  {
+    "id": "t-ines",
+    "agentId": "ines",
+    "homeId": "loft",
+    "readMinutesAgo": 200,
+    "messages": [
+      {
+        "fromMe": true,
+        "minutesAgo": 1500,
+        "text": "Hello Inês, is the Printworks Loft still available from December?"
+      },
+      {
+        "fromMe": false,
+        "minutesAgo": 1460,
+        "text": "It is. The current tenants leave on the 28th, so you could have the keys from the 1st of December."
+      },
+      {
+        "fromMe": true,
+        "minutesAgo": 1440,
+        "text": "Perfect. I have booked a viewing."
+      },
+      {
+        "fromMe": false,
+        "minutesAgo": 32,
+        "text": "See you there. The entrance is the green door between the bakery and the bookshop. Ring the top bell and I will come down."
+      }
+    ]
+  },
+  {
+    "id": "t-tomas",
+    "agentId": "tomas",
+    "homeId": "belem",
+    "readMinutesAgo": 10,
+    "messages": [
+      {
+        "fromMe": false,
+        "minutesAgo": 2900,
+        "text": "Thank you for coming to see the Garden House. I have passed your offer to the owners."
+      },
+      {
+        "fromMe": true,
+        "minutesAgo": 2880,
+        "text": "Thank you. Do you know when they will decide?"
+      },
+      {
+        "fromMe": false,
+        "minutesAgo": 2870,
+        "text": "They have asked for a couple of days. I will message you the moment I hear."
+      }
+    ]
+  },
+  {
+    "id": "t-leonor",
+    "agentId": "leonor",
+    "homeId": "parque",
+    "readMinutesAgo": 100,
+    "messages": [
+      {
+        "fromMe": false,
+        "minutesAgo": 320,
+        "text": "I am sorry, the owner needs the apartment that afternoon. Would another day suit you?"
+      },
+      {
+        "fromMe": true,
+        "minutesAgo": 300,
+        "text": "No problem, I will book another time."
+      }
+    ]
+  }
+]

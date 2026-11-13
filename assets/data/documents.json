@@ -1,0 +1,14 @@
+[
+  {
+    "id": "d-id",
+    "name": "Passport",
+    "kind": "Identity",
+    "addedMinutesAgo": 20160
+  },
+  {
+    "id": "d-income",
+    "name": "Payslips, last three months",
+    "kind": "Proof of income",
+    "addedMinutesAgo": 25
+  }
+]

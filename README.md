@@ -3,6 +3,8 @@
 <h1 align="center">Keystone</h1>
 <p align="center">A real estate app template for Flutter. Find a home to rent or buy, save the ones you like, book a viewing, and keep the paperwork in one place.</p>
 
+<p align="center"><b><a href="https://flutterzip.com/#newsletter">Get every new Flutter app by email</a></b> · a new app most days, unsubscribe any time</p>
+
 <p align="center">
   <a href="https://flutterzip.com"><img src="https://img.shields.io/badge/flutterzip.com-173A2E" alt="flutterzip.com"></a>
   <a href="https://instagram.com/flutter_zip"><img src="https://img.shields.io/badge/@flutter__zip-B8894A" alt="Instagram"></a>
